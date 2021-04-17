@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5FD1C1262ABAAA00803363 /* rememberCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FD1C0262ABAAA00803363 /* rememberCardApp.swift */; };
+		AF5FD1C3262ABAAA00803363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FD1C2262ABAAA00803363 /* ContentView.swift */; };
+		AF5FD1C5262ABAAD00803363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FD1C4262ABAAD00803363 /* Assets.xcassets */; };
+		AF5FD1C8262ABAAD00803363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5FD1C7262ABAAD00803363 /* Preview Assets.xcassets */; };
+		AF5FD1D3262ABAAD00803363 /* rememberCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FD1D2262ABAAD00803363 /* rememberCardTests.swift */; };
+		AF5FD1DE262ABAAD00803363 /* rememberCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5FD1DD262ABAAD00803363 /* rememberCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF5FD1CF262ABAAD00803363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5FD1B5262ABAAA00803363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5FD1BC262ABAAA00803363;
+			remoteInfo = rememberCard;
+		};
+		AF5FD1DA262ABAAD00803363 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5FD1B5262ABAAA00803363 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5FD1BC262ABAAA00803363;
+			remoteInfo = rememberCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF5FD1BD262ABAAA00803363 /* rememberCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rememberCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FD1C0262ABAAA00803363 /* rememberCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rememberCardApp.swift; sourceTree = "<group>"; };
+		AF5FD1C2262ABAAA00803363 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF5FD1C4262ABAAD00803363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5FD1C7262ABAAD00803363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF5FD1C9262ABAAD00803363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5FD1CE262ABAAD00803363 /* rememberCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rememberCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FD1D2262ABAAD00803363 /* rememberCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rememberCardTests.swift; sourceTree = "<group>"; };
+		AF5FD1D4262ABAAD00803363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5FD1D9262ABAAD00803363 /* rememberCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rememberCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5FD1DD262ABAAD00803363 /* rememberCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rememberCardUITests.swift; sourceTree = "<group>"; };
+		AF5FD1DF262ABAAD00803363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5FD1BA262ABAAA00803363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FD1CB262ABAAD00803363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FD1D6262ABAAD00803363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5FD1B4262ABAAA00803363 = {
+			isa = PBXGroup;
+			children = (
+				AF5FD1BF262ABAAA00803363 /* rememberCard */,
+				AF5FD1D1262ABAAD00803363 /* rememberCardTests */,
+				AF5FD1DC262ABAAD00803363 /* rememberCardUITests */,
+				AF5FD1BE262ABAAA00803363 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5FD1BE262ABAAA00803363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FD1BD262ABAAA00803363 /* rememberCard.app */,
+				AF5FD1CE262ABAAD00803363 /* rememberCardTests.xctest */,
+				AF5FD1D9262ABAAD00803363 /* rememberCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5FD1BF262ABAAA00803363 /* rememberCard */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FD1C0262ABAAA00803363 /* rememberCardApp.swift */,
+				AF5FD1C2262ABAAA00803363 /* ContentView.swift */,
+				AF5FD1C4262ABAAD00803363 /* Assets.xcassets */,
+				AF5FD1C9262ABAAD00803363 /* Info.plist */,
+				AF5FD1C6262ABAAD00803363 /* Preview Content */,
+			);
+			path = rememberCard;
+			sourceTree = "<group>";
+		};
+		AF5FD1C6262ABAAD00803363 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FD1C7262ABAAD00803363 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF5FD1D1262ABAAD00803363 /* rememberCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FD1D2262ABAAD00803363 /* rememberCardTests.swift */,
+				AF5FD1D4262ABAAD00803363 /* Info.plist */,
+			);
+			path = rememberCardTests;
+			sourceTree = "<group>";
+		};
+		AF5FD1DC262ABAAD00803363 /* rememberCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5FD1DD262ABAAD00803363 /* rememberCardUITests.swift */,
+				AF5FD1DF262ABAAD00803363 /* Info.plist */,
+			);
+			path = rememberCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5FD1BC262ABAAA00803363 /* rememberCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5FD1E2262ABAAD00803363 /* Build configuration list for PBXNativeTarget "rememberCard" */;
+			buildPhases = (
+				AF5FD1B9262ABAAA00803363 /* Sources */,
+				AF5FD1BA262ABAAA00803363 /* Frameworks */,
+				AF5FD1BB262ABAAA00803363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rememberCard;
+			productName = rememberCard;
+			productReference = AF5FD1BD262ABAAA00803363 /* rememberCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5FD1CD262ABAAD00803363 /* rememberCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5FD1E5262ABAAD00803363 /* Build configuration list for PBXNativeTarget "rememberCardTests" */;
+			buildPhases = (
+				AF5FD1CA262ABAAD00803363 /* Sources */,
+				AF5FD1CB262ABAAD00803363 /* Frameworks */,
+				AF5FD1CC262ABAAD00803363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5FD1D0262ABAAD00803363 /* PBXTargetDependency */,
+			);
+			name = rememberCardTests;
+			productName = rememberCardTests;
+			productReference = AF5FD1CE262ABAAD00803363 /* rememberCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5FD1D8262ABAAD00803363 /* rememberCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5FD1E8262ABAAD00803363 /* Build configuration list for PBXNativeTarget "rememberCardUITests" */;
+			buildPhases = (
+				AF5FD1D5262ABAAD00803363 /* Sources */,
+				AF5FD1D6262ABAAD00803363 /* Frameworks */,
+				AF5FD1D7262ABAAD00803363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5FD1DB262ABAAD00803363 /* PBXTargetDependency */,
+			);
+			name = rememberCardUITests;
+			productName = rememberCardUITests;
+			productReference = AF5FD1D9262ABAAD00803363 /* rememberCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5FD1B5262ABAAA00803363 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AF5FD1BC262ABAAA00803363 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AF5FD1CD262ABAAD00803363 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AF5FD1BC262ABAAA00803363;
+					};
+					AF5FD1D8262ABAAD00803363 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AF5FD1BC262ABAAA00803363;
+					};
+				};
+			};
+			buildConfigurationList = AF5FD1B8262ABAAA00803363 /* Build configuration list for PBXProject "rememberCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5FD1B4262ABAAA00803363;
+			productRefGroup = AF5FD1BE262ABAAA00803363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5FD1BC262ABAAA00803363 /* rememberCard */,
+				AF5FD1CD262ABAAD00803363 /* rememberCardTests */,
+				AF5FD1D8262ABAAD00803363 /* rememberCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5FD1BB262ABAAA00803363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FD1C8262ABAAD00803363 /* Preview Assets.xcassets in Resources */,
+				AF5FD1C5262ABAAD00803363 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FD1CC262ABAAD00803363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FD1D7262ABAAD00803363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5FD1B9262ABAAA00803363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FD1C3262ABAAA00803363 /* ContentView.swift in Sources */,
+				AF5FD1C1262ABAAA00803363 /* rememberCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FD1CA262ABAAD00803363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FD1D3262ABAAD00803363 /* rememberCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5FD1D5262ABAAD00803363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5FD1DE262ABAAD00803363 /* rememberCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5FD1D0262ABAAD00803363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5FD1BC262ABAAA00803363 /* rememberCard */;
+			targetProxy = AF5FD1CF262ABAAD00803363 /* PBXContainerItemProxy */;
+		};
+		AF5FD1DB262ABAAD00803363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5FD1BC262ABAAA00803363 /* rememberCard */;
+			targetProxy = AF5FD1DA262ABAAD00803363 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF5FD1E0262ABAAD00803363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF5FD1E1262ABAAD00803363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5FD1E3262ABAAD00803363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"rememberCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 2B3J4UV9AZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = rememberCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rithmi.rememberCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5FD1E4262ABAAD00803363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"rememberCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 2B3J4UV9AZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = rememberCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rithmi.rememberCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF5FD1E6262ABAAD00803363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B3J4UV9AZ;
+				INFOPLIST_FILE = rememberCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rithmi.rememberCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rememberCard.app/rememberCard";
+			};
+			name = Debug;
+		};
+		AF5FD1E7262ABAAD00803363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B3J4UV9AZ;
+				INFOPLIST_FILE = rememberCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rithmi.rememberCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rememberCard.app/rememberCard";
+			};
+			name = Release;
+		};
+		AF5FD1E9262ABAAD00803363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B3J4UV9AZ;
+				INFOPLIST_FILE = rememberCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rithmi.rememberCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rememberCard;
+			};
+			name = Debug;
+		};
+		AF5FD1EA262ABAAD00803363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2B3J4UV9AZ;
+				INFOPLIST_FILE = rememberCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rithmi.rememberCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rememberCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5FD1B8262ABAAA00803363 /* Build configuration list for PBXProject "rememberCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FD1E0262ABAAD00803363 /* Debug */,
+				AF5FD1E1262ABAAD00803363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5FD1E2262ABAAD00803363 /* Build configuration list for PBXNativeTarget "rememberCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FD1E3262ABAAD00803363 /* Debug */,
+				AF5FD1E4262ABAAD00803363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5FD1E5262ABAAD00803363 /* Build configuration list for PBXNativeTarget "rememberCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FD1E6262ABAAD00803363 /* Debug */,
+				AF5FD1E7262ABAAD00803363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5FD1E8262ABAAD00803363 /* Build configuration list for PBXNativeTarget "rememberCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5FD1E9262ABAAD00803363 /* Debug */,
+				AF5FD1EA262ABAAD00803363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5FD1B5262ABAAA00803363 /* Project object */;
+}
